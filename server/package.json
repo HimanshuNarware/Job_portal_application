@@ -22,7 +22,8 @@
     "mongoose": "^8.13.2",
     "multer": "^1.4.5-lts.2",
     "node-cron": "^4.0.5",
-    "nodemailer": "^6.10.1"
+    "nodemailer": "^6.10.1",
+    "vercel": "^42.2.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
