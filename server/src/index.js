@@ -35,6 +35,11 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/jobs", jobRoutes);
 app.use("/api/v1/profile", profileRoutes);
 app.use("/api/v1/applications", applicationRoutes);
+app.get('/',(req,res)=>{
+  res.send({
+    ok:'home page'
+  })
+})
 
 connectDB()
   .then(() => {
