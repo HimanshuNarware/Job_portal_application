@@ -2,11 +2,11 @@ import { useState } from "react";
 
 const Profile = () => {
   const [user, setUser] = useState({
-    fullName: "Ranjan Kumar Chauhan",
-    email: "ranjan@example.com",
-    contact: "9876543210",
+    fullName: "Gagan yadav",
+    email: "user@example.com",
+    contact: "1234567890",
     role: "jobseeker", // or "employer"
-    company: "Numetry Technologies",
+    company: "tcs",
   });
 
   const handleChange = (e) => {
