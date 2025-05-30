@@ -1,9 +1,9 @@
 import dotenv from "dotenv";
-dotenv.config();
 import { User } from "../models/User.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import { Profile } from "../models/Profile.js";
+dotenv.config();
 
 const register = async (req, res) => {
   try {
